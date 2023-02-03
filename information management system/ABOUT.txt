@@ -1,8 +1,10 @@
   ~TR
-  Bu bir mağaza yönetim sistemidir. Basit bir arayüz ile bir veritabanı üzerinde CRUD işlemleri yapmanızı sağlar. 4 farklı tablo ve arayüzleri vardır (Dükkanlar -Mağazalar- devre dışıdır).
+  Bu bir mağaza yönetim sistemidir. Basit bir arayüz ile bir veritabanı üzerinde CRUD işlemleri yapmanızı sağlar. 4 farklı tablo ve arayüzleri vardır (Dükkanlar -
+  Mağazalar- devre dışıdır).
 !Not: Kodu düzgün çalıştırmak için kendi veritabanı barındırma bağlantılarınızı yapmanız gerekir (vtysPanel > vtysPanel > settings.py'den).
 
   ~EN
-  It's a simple store management system. It allows you to make CRUD processes on a database with a simple interface. There is 4 different tables and their interfaces (Stores -Mağazalar- is disabled).
+  It's a simple store management system. It allows you to make CRUD processes on a database with a simple interface. There is 4 different tables and their interfaces 
+  (Stores -Mağazalar- is disabled).
 	!Note: You need to make your own database hosting connections to run code properly (from vtysPanel > vtysPanel > settings.py).
 
