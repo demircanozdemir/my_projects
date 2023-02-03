@@ -15,40 +15,21 @@ def conv(n,k,m): # '*' ile sansürlenmiş kelimeyi tahmin edildikçe harflerini 
     return f
 file = open(r"words.txt",encoding="utf8").readlines() 
 allwords = [] #words dosyasındaki kelimeler
-#seviye eklemesi için gerekli olacak
-#w3,w4, w5, w6, w7, w8, w9, w10, w11, otr  = [],[],[],[],[],[],[],[],[],[]
 
 for i in range(len(file)):
     file[i] = file[i][:-1]
     allwords.append(file[i])
-    # seviye eklenirse gerekli olacak kısımlar; kelimeleri uzunluklarına göre ayırma
-    # if len(file[i]) == 3:
-    #     w3.append(file[i])
-    # elif len(file[i]) == 4:
-    #     w4.append(file[i])
-    # elif len(file[i]) == 5:
-    #     w5.append(file[i])
-    # elif len(file[i]) == 6:
-    #     w6.append(file[i])
-    # elif len(file[i]) == 7:
-    #     w7.append(file[i])
-    # elif len(file[i]) == 8:
-    #     w8.append(file[i])
-    # elif len(file[i]) == 9:
-    #     w9.append(file[i])
-    # elif len(file[i]) == 10:
-    #     w10.append(file[i])
-    # elif len(file[i]) == 11:
-    #     w11.append(file[i])
-    # else:
-    #     otr.append(file[i])
+ 
 
 while(1==1):
-    ln = random.randint(0,len(allwords))  # rastgele bir kelime seçme
+    
+    # rastgele bir kelime seçme
+    ln = random.randint(0,len(allwords))  
     kel = allwords[ln].upper()
     d="" 
-
-    for i in range(len(kel)): #kelime uzunluğunda '*'ı oluşturma
+    
+    #kelime uzunluğunda '*'ı oluşturma
+    for i in range(len(kel)): 
         d = d+"*"
     c = 9
 
@@ -61,16 +42,17 @@ while(1==1):
                                  # o harfler açılıp kelime geri döndürülüyor. örn: A, **** -> *A*A
         else:
             c -=1
+           
         if d.count("*") ==0: # canımızı bitirmeden kelimeyi tahmin edebilmişsek döngüyü sonlandırıyoruz
             break
 
 
     if c>0: ##  tahmin hakkımız var iken döngüden çıkmışsak oyunu kazanmışızdır
         print(f"Kelime: {kel}\n KAZANDINIZ")
-        #print(f"{9-c}. seferde buldunuz!")
+   
     else:
         print("maalesef, kelime: ", kel," idi")
-
+    
     opt = input("Yeni oyun? (y/n)\n")
     if opt == "n" or opt == "N":
         break
