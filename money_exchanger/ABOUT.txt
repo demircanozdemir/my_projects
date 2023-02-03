@@ -1,5 +1,5 @@
   ~EN
-  MoneyExchanger app is a mini desktop application that I wrote using Python's request and json libraries for API connection and  PyQt for UI. It has a simple UI that you can enter your amount and select your and target currency. Then when you clicked the exchange -donustur- button it gives you the calculated target amount and instant exchange rate.
+  MoneyExchanger app is a mini desktop application that I wrote using Python's request and json libraries for API connection and  PyQt for UI. It has a simple UI that you can enter your amount and select your and target currency. Then when you clicked the exchange -donustur- button it gives you the calculated target amount and instant exchange rate. 
 
   ~TR
   MoneyExchanger uygulaması, API bağlantısı için Python'un request ve json kitaplıklarını ve UI için PyQt kullanarak yazdığım mini bir masaüstü uygulamasıdır. Tutarınızı girip hedef para biriminizi seçebileceğiniz basit bir kullanıcı arayüzüne sahiptir. Ardından 'Dönüştür' butonuna tıkladığınızda size hesaplanan hedef tutarı ve anlık döviz kurunu verir.
