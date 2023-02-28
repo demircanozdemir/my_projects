@@ -1,6 +1,6 @@
 # Uzaylı istilası var
 #100 yaşından büyük herkes yaşar(max. 128)
-#100 yaşından küçük olanlar 
+#100 yaşından küçük olanlar yaşı tamkare olmayıp iki sayının kareleri toplamı olarak yazılabiliyorsa yaşar.
 c=29
 for n in range(1,100):
     if(n==2 or n==3 or n==5 or n==7):
