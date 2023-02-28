@@ -88,7 +88,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'magaza_db2',
         'USER': 'root',             #
-        'PASSWORD': 'q987456321',   # 
+        'PASSWORD': 'sifre',   # 
         'HOST': 'localhost',
         'PORT': '3306',
     }
